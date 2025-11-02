@@ -38,6 +38,6 @@ while True:
         correct = False
      
     # Once question is answered, update elo
-    elo = update_elo(elo, correct)
+    elo = update_elo(elo, correct, difficulty_index)
     print(elo)
     counter +=1

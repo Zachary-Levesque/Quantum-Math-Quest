@@ -1,14 +1,26 @@
-def update_elo(elo, correct, K=30):
-    if correct:
-        elo += K
+
+def update_elo(elo, correct, difficulty_index, base_K=30):
+
+    difficulty_multiplier = 1 + 0.25 * difficulty_index  # Easy=1, Medium=1.25, Hard=1.5, Expert=1.75
+
+    if elo < 500:
+        gain_multiplier = 1.5
+        loss_multiplier = 0.5
+    elif elo < 1000:
+        gain_multiplier = 1.0
+        loss_multiplier = 1.0
     else:
-        elo -= K
+        gain_multiplier = 0.5
+        loss_multiplier = 1.5
 
-    if elo < 0:
-        elo = 0
+    K = base_K * difficulty_multiplier
 
-    return elo
+    if correct:
+        elo += K * gain_multiplier
+    else:
+        elo -= K * loss_multiplier
 
+    return max(elo, 0)
 
 def get_difficulty(elo):
     if elo < 500:
