@@ -47,8 +47,6 @@ Streamlit / Flask (for interactive front-end)
 ## How to run
 
 ### Setup
-git clone https://github.com/Quantum-Bros/Quantum-Math-Quest.git
-cd Quantum-Math-Quest
 pip install -r requirements.txt
 
 ### Training
