@@ -1,4 +1,5 @@
-# Quantum-Bros
+# Quantum Math Quest
+## Created by the Quantum Bros: Zachary Levesque, Aleksa Zarin and Samir Jr. Abou Serhal
 Hello World! Welcome to our repository for the 2025 Qiskit Hackathon featuring our project: Quantum Math Quest — a gamified, adaptive math challenge powered by quantum-inspired algorithms.
 
 
@@ -35,7 +36,7 @@ Our approach combines classical adaptive algorithms with quantum-inspired mechan
 
 Each player and question has a dynamic ELO rating.
 
-Correct answers increase difficulty, incorrect answers adjust it downward.
+Correct answers increase difficulty, incorrect answers adjust it downward. In order to achieve this, we use a quantum circuit.
 
 The system continuously estimates the player's skill level to match them with optimal problems.
 
@@ -43,7 +44,7 @@ The system continuously estimates the player's skill level to match them with op
 
 Quantum randomness (simulated or derived from Qiskit backends) introduces variability in question selection, ensuring replayability.
 
-Some gameplay features depend on quantum measurement outcomes, adding unpredictability and fairness.
+Some gameplay features depend on quantum measurement outcomes, adding unpredictability and fairness. This is a great approach that uses less computing power then traditional computing.
 
 3) Gamification Layer:
 
@@ -61,18 +62,22 @@ Qiskit (quantum randomness & optional circuit demos)
 ## How to run
 
 ### Setup
-pip install -r requirements.txt
+Clone the GitHub Repositorie
+
+
+### Install
+pip install matplotlib quantum-random
 
 ### Run the game
-python main.py
+python _init_.py
 
 ## Team members
 ### Zachary Levesque: 
-4th year Electrical Engineering and Physics student at the University of Ottawa. Zachary is an expert in machine learning.
+4th year Electrical Engineering and Physics student at the University of Ottawa. Zachary is an expert in machine learning. Zachary determined the majority of the quantum algorithms used in the code.
 
 ### Aleksa Zarin: 
-4th year Electrical Engineering and Physics student at the University of Ottawa. Aleksa is an expert in Python libraries
+4th year Electrical Engineering and Physics student at the University of Ottawa. Aleksa is an expert in Python libraries. Aleksa wrote the python structure and tree that was employed.
 
 ### Samir Jr Abou Serhal: 
-4th year Electrical Engineering and Physics student at the University of Ottawa. Samir is in charge of documentation and maintenance.
+4th year Electrical Engineering and Physics student at the University of Ottawa. Samir is in charge of documentation and maintenance. Samir developped and solved the mathematical questions that are being asked. 
 
