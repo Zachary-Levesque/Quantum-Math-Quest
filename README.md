@@ -74,5 +74,5 @@ python main.py
 4th year Electrical Engineering and Physics student at the University of Ottawa. Aleksa is an expert in Python libraries
 
 ### Samir Jr Abou Serhal: 
-4th year Electrical Engineering and Physics student at the University of Ottawa. Samir is an expert in quantum mechanics.
+4th year Electrical Engineering and Physics student at the University of Ottawa. Samir is in charge of documentation and maintenance.
 
