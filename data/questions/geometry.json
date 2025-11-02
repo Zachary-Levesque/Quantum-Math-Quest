@@ -1,0 +1,303 @@
+[
+  {
+    "id": "geo_easy_001",
+    "question": "What is the sum of the interior angles of a triangle?",
+    "options": ["90°", "180°", "270°", "360°"],
+    "correct_answer": "180°",
+    "difficulty": "easy",
+    "explanation": "All triangles have interior angles that add up to 180°."
+  },
+  {
+    "id": "geo_easy_002",
+    "question": "A square has sides of length 4 cm. What is its area?",
+    "options": ["8 cm²", "12 cm²", "16 cm²", "20 cm²"],
+    "correct_answer": "16 cm²",
+    "difficulty": "easy",
+    "explanation": "Area = side² = 4² = 16 cm²."
+  },
+  {
+    "id": "geo_easy_003",
+    "question": "How many sides does a hexagon have?",
+    "options": ["5", "6", "7", "8"],
+    "correct_answer": "6",
+    "difficulty": "easy",
+    "explanation": "‘Hexa’ means six — a hexagon has 6 sides."
+  },
+  {
+    "id": "geo_easy_004",
+    "question": "What is the perimeter of a rectangle with length 5 cm and width 3 cm?",
+    "options": ["8 cm", "10 cm", "15 cm", "16 cm"],
+    "correct_answer": "16 cm",
+    "difficulty": "easy",
+    "explanation": "Perimeter = 2(l + w) = 2(5 + 3) = 16 cm."
+  },
+  {
+    "id": "geo_easy_005",
+    "question": "What is the area of a right triangle with base 6 cm and height 4 cm?",
+    "options": ["10 cm²", "12 cm²", "14 cm²", "24 cm²"],
+    "correct_answer": "12 cm²",
+    "difficulty": "easy",
+    "explanation": "Area = ½ × base × height = ½ × 6 × 4 = 12 cm²."
+  },
+  {
+    "id": "geo_easy_006",
+    "question": "What shape has all sides equal and all angles equal to 90°?",
+    "options": ["Rectangle", "Rhombus", "Square", "Trapezoid"],
+    "correct_answer": "Square",
+    "difficulty": "easy",
+    "explanation": "A square has equal sides and four right angles."
+  },
+  {
+    "id": "geo_easy_007",
+    "question": "A circle has a radius of 3 cm. What is its diameter?",
+    "options": ["3 cm", "6 cm", "9 cm", "12 cm"],
+    "correct_answer": "6 cm",
+    "difficulty": "easy",
+    "explanation": "Diameter = 2 × radius = 6 cm."
+  },
+  {
+    "id": "geo_easy_008",
+    "question": "How many degrees are in a right angle?",
+    "options": ["45°", "60°", "90°", "120°"],
+    "correct_answer": "90°",
+    "difficulty": "easy",
+    "explanation": "By definition, a right angle is 90°."
+  },
+  {
+    "id": "geo_easy_009",
+    "question": "What is the name of a polygon with three sides?",
+    "options": ["Quadrilateral", "Triangle", "Pentagon", "Hexagon"],
+    "correct_answer": "Triangle",
+    "difficulty": "easy",
+    "explanation": "A triangle is a 3-sided polygon."
+  },
+  {
+    "id": "geo_easy_010",
+    "question": "What is the area of a circle with radius 2 cm? (Use π = 3.14)",
+    "options": ["6.28 cm²", "12.56 cm²", "3.14 cm²", "9 cm²"],
+    "correct_answer": "12.56 cm²",
+    "difficulty": "easy",
+    "explanation": "Area = πr² = 3.14 × 2² = 12.56 cm²."
+  },
+  {
+    "id": "geo_medium_001",
+    "question": "Find the area of a parallelogram with base 8 cm and height 5 cm.",
+    "options": ["30 cm²", "35 cm²", "40 cm²", "45 cm²"],
+    "correct_answer": "40 cm²",
+    "difficulty": "medium",
+    "explanation": "Area = base × height = 8 × 5 = 40 cm²."
+  },
+  {
+    "id": "geo_medium_002",
+    "question": "A triangle has sides 3, 4, and 5 cm. What type of triangle is it?",
+    "options": ["Equilateral", "Isosceles", "Right", "Obtuse"],
+    "correct_answer": "Right",
+    "difficulty": "medium",
+    "explanation": "3² + 4² = 5², so it’s a right triangle (Pythagorean theorem)."
+  },
+  {
+    "id": "geo_medium_003",
+    "question": "Find the circumference of a circle with diameter 10 cm. (Use π = 3.14)",
+    "options": ["15.7 cm", "20 cm", "25.6 cm", "31.4 cm"],
+    "correct_answer": "31.4 cm",
+    "difficulty": "medium",
+    "explanation": "C = πd = 3.14 × 10 = 31.4 cm."
+  },
+  {
+    "id": "geo_medium_004",
+    "question": "The diagonals of a rhombus intersect at 90°. If each diagonal is 10 cm, find its area.",
+    "options": ["25 cm²", "50 cm²", "75 cm²", "100 cm²"],
+    "correct_answer": "50 cm²",
+    "difficulty": "medium",
+    "explanation": "Area = ½ × d₁ × d₂ = ½ × 10 × 10 = 50 cm²."
+  },
+  {
+    "id": "geo_medium_005",
+    "question": "Find the length of the hypotenuse of a right triangle with legs 6 cm and 8 cm.",
+    "options": ["9 cm", "10 cm", "11 cm", "12 cm"],
+    "correct_answer": "10 cm",
+    "difficulty": "medium",
+    "explanation": "c² = 6² + 8² = 36 + 64 = 100 → c = 10 cm."
+  },
+  {
+    "id": "geo_medium_006",
+    "question": "A regular pentagon has how many lines of symmetry?",
+    "options": ["3", "4", "5", "6"],
+    "correct_answer": "5",
+    "difficulty": "medium",
+    "explanation": "A regular n-gon has n lines of symmetry."
+  },
+  {
+    "id": "geo_medium_007",
+    "question": "If the sum of two angles in a triangle is 70°, what is the third angle?",
+    "options": ["70°", "90°", "110°", "120°"],
+    "correct_answer": "110°",
+    "difficulty": "medium",
+    "explanation": "Total is 180°, so 180 - 70 = 110°."
+  },
+  {
+    "id": "geo_medium_008",
+    "question": "A rectangle has a diagonal of 13 cm and width of 5 cm. Find its length.",
+    "options": ["8 cm", "10 cm", "11 cm", "12 cm"],
+    "correct_answer": "12 cm",
+    "difficulty": "medium",
+    "explanation": "Using Pythagoras: l² + 5² = 13² → l² = 144 → l = 12 cm."
+  },
+  {
+    "id": "geo_medium_009",
+    "question": "What is the exterior angle of a regular pentagon?",
+    "options": ["60°", "72°", "90°", "108°"],
+    "correct_answer": "72°",
+    "difficulty": "medium",
+    "explanation": "Exterior angle = 360°/n = 360/5 = 72°."
+  },
+  {
+    "id": "geo_medium_010",
+    "question": "Find the area of an equilateral triangle with side 6 cm. (Use √3 ≈ 1.73)",
+    "options": ["10.38 cm²", "12.48 cm²", "15.59 cm²", "18.00 cm²"],
+    "correct_answer": "15.59 cm²",
+    "difficulty": "medium",
+    "explanation": "Area = (√3/4)a² = (1.73/4)×36 ≈ 15.59 cm²."
+  },
+  {
+    "id": "geo_hard_001",
+    "question": "Find the area of a trapezoid with bases 8 cm and 5 cm, and height 6 cm.",
+    "options": ["36 cm²", "39 cm²", "40 cm²", "42 cm²"],
+    "correct_answer": "39 cm²",
+    "difficulty": "hard",
+    "explanation": "Area = ½ × (b₁ + b₂) × h = ½ × (8 + 5) × 6 = 39 cm²."
+  },
+  {
+    "id": "geo_hard_002",
+    "question": "A circle has circumference 31.4 cm. Find its radius. (Use π = 3.14)",
+    "options": ["4 cm", "5 cm", "6 cm", "7 cm"],
+    "correct_answer": "5 cm",
+    "difficulty": "hard",
+    "explanation": "C = 2πr → r = 31.4 / (2×3.14) = 5 cm."
+  },
+  {
+    "id": "geo_hard_003",
+    "question": "Find the length of the diagonal of a square with side 8 cm.",
+    "options": ["10 cm", "11 cm", "11.3 cm", "11.31 cm"],
+    "correct_answer": "11.31 cm",
+    "difficulty": "hard",
+    "explanation": "Diagonal = √2 × side = 1.414 × 8 = 11.31 cm."
+  },
+  {
+    "id": "geo_hard_004",
+    "question": "Find the area of a circle inscribed in a square with side 10 cm. (Use π = 3.14)",
+    "options": ["50 cm²", "78.5 cm²", "100 cm²", "314 cm²"],
+    "correct_answer": "78.5 cm²",
+    "difficulty": "hard",
+    "explanation": "Radius = side/2 = 5 cm → Area = πr² = 3.14×25 = 78.5 cm²."
+  },
+  {
+    "id": "geo_hard_005",
+    "question": "A triangle has sides 7, 8, and 9 cm. Find its area (use Heron's formula).",
+    "options": ["24 cm²", "26 cm²", "28 cm²", "30 cm²"],
+    "correct_answer": "26 cm²",
+    "difficulty": "hard",
+    "explanation": "s=(7+8+9)/2=12 → A=√[12(12−7)(12−8)(12−9)]=√720≈26.83 cm²."
+  },
+  {
+    "id": "geo_hard_006",
+    "question": "The diagonals of a rectangle are equal. What does this tell us about the shape?",
+    "options": ["It is a square", "It is any rectangle", "It is a rhombus", "It is a parallelogram"],
+    "correct_answer": "It is any rectangle",
+    "difficulty": "hard",
+    "explanation": "All rectangles have equal diagonals, not just squares."
+  },
+  {
+    "id": "geo_hard_007",
+    "question": "Find the area of a sector with radius 10 cm and central angle 90°. (Use π = 3.14)",
+    "options": ["25 cm²", "50 cm²", "75 cm²", "78.5 cm²"],
+    "correct_answer": "78.5 cm²",
+    "difficulty": "hard",
+    "explanation": "Area = (θ/360)×πr² = (90/360)×3.14×100 = 78.5 cm²."
+  },
+  {
+    "id": "geo_hard_008",
+    "question": "In a regular hexagon with side 6 cm, find the distance between opposite sides.",
+    "options": ["9 cm", "10 cm", "10.39 cm", "12 cm"],
+    "correct_answer": "10.39 cm",
+    "difficulty": "hard",
+    "explanation": "Distance = 2×(√3/2)×6 = 10.39 cm."
+  },
+  {
+    "id": "geo_hard_009",
+    "question": "Find the radius of a circle whose area is 154 cm². (Use π = 3.14)",
+    "options": ["5 cm", "6 cm", "7 cm", "8 cm"],
+    "correct_answer": "7 cm",
+    "difficulty": "hard",
+    "explanation": "A=πr²→r²=154/3.14≈49→r=7 cm."
+  },
+  {
+    "id": "geo_hard_010",
+    "question": "Find the area of an isosceles triangle with equal sides 10 cm and base 12 cm.",
+    "options": ["40 cm²", "45 cm²", "48 cm²", "50 cm²"],
+    "correct_answer": "48 cm²",
+    "difficulty": "hard",
+    "explanation": "Height=√(10²−6²)=8 → Area=½×12×8=48 cm²."
+  },
+  {
+    "id": "geo_expert_001",
+    "question": "A circle is inscribed in a triangle with sides 13, 14, and 15 cm. Find its radius.",
+    "options": ["3 cm", "4 cm", "5 cm", "6 cm"],
+    "correct_answer": "4 cm",
+    "difficulty": "expert",
+    "explanation": "s=21, area=√[21×8×7×6]=84 → r=A/s=84/21=4 cm."
+  },
+  {
+    "id": "geo_expert_002",
+    "question": "Find the area of an equilateral triangle inscribed in a circle of radius 6 cm.",
+    "options": ["15.6 cm²", "18 cm²", "27 cm²", "46.8 cm²"],
+    "correct_answer": "46.8 cm²",
+    "difficulty": "expert",
+    "explanation": "For equilateral triangle, R=a/√3 → a=R√3=6√3 → A=(√3/4)a²=(√3/4)(108)=46.8 cm²."
+  },
+  {
+    "id": "geo_expert_003",
+    "question": "A cone has height 12 cm and slant height 13 cm. Find its base radius.",
+    "options": ["5 cm", "6 cm", "7 cm", "8 cm"],
+    "correct_answer": "5 cm",
+    "difficulty": "expert",
+    "explanation": "l² = r² + h² → 13² = r² + 12² → r = 5 cm."
+  },
+  {
+    "id": "geo_expert_004",
+    "question": "Find the volume of a sphere with radius 4 cm. (Use π = 3.14)",
+    "options": ["200 cm³", "250 cm³", "268 cm³", "300 cm³"],
+    "correct_answer": "268 cm³",
+    "difficulty": "expert",
+    "explanation": "V = (4/3)πr³ = (4/3)×3.14×64 = 268 cm³."
+  },
+  {
+    "id": "geo_expert_005",
+    "question": "A triangle has sides 7, 24, and 25 cm. Find its inradius.",
+    "options": ["3 cm", "4 cm", "5 cm", "6 cm"],
+    "correct_answer": "3 cm",
+    "difficulty": "expert",
+    "explanation": "Right triangle → area = ½×7×24 = 84, s = 28, r = A/s = 3 cm."
+  },
+  {
+    "id": "geo_expert_006",
+    "question": "Find the area of a regular octagon with side 4 cm. (Use 2.828 for cot(π/8))",
+    "options": ["70.9 cm²", "77.2 cm²", "79 cm²", "81.5 cm²"],
+    "correct_answer": "77.2 cm²",
+    "difficulty": "expert",
+    "explanation": "A = 2n × a² × cot(π/n) = 2×4²×2.828 = 77.2 cm²."
+  },
+  {
+    "id": "geo_expert_007",
+    "question": "A cylinder has volume 628 cm³ and height 10 cm. Find its radius. (Use π = 3.14)",
+    "options": ["4 cm", "5 cm", "6 cm", "7 cm"],
+    "correct_answer": "4.47 cm",
+    "difficulty": "expert",
+    "explanation": "V = πr²h → r² = 628/(3.14×10) ≈ 20 → r ≈ 4.47 cm."
+  },
+  {
+    "id": "geo_expert_008",
+    "question": "The sum of the interior angles of a polygon is 1260°. Find the number of sides.",
+    "options": ["7", "8", "9", "10"],
+    "correct_answer": "9",
+    "difficulty":
