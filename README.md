@@ -62,10 +62,14 @@ Qiskit (quantum randomness & optional circuit demos)
 ## How to run
 
 ### Setup
-Install libraries in Requirements.txt
+Clone the GitHub Repositorie
+
+
+### Install
+pip install matplotlib quantum-random
 
 ### Run the game
-python main.py
+python _init_.py
 
 ## Team members
 ### Zachary Levesque: 
