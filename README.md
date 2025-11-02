@@ -61,12 +61,12 @@ python evaluate.py
 streamlit run app.py
 
 ## Team members
-###Zachary Levesque: 
+### Zachary Levesque: 
 4th year Electrical Engineering and Physics student at the University of Ottawa. Zachary is an expert in machine learning.
 
-###Aleksa Zarin: 
+### Aleksa Zarin: 
 4th year Electrical Engineering and Physics student at the University of Ottawa. Aleksa is an expert in Python libraries
 
-###Samir Jr Abou Serhal: 
+### Samir Jr Abou Serhal: 
 4th year Electrical Engineering and Physics student at the University of Ottawa. Samir is an expert in quantum mechanics.
 
