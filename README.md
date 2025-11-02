@@ -11,6 +11,15 @@ Our project explores how quantum computing concepts—such as probabilistic reas
 
 We’re building this as part of the QFF25 Hackathon, hosted by the University of Ottawa Quantum Club.
 
+## Features:
+- Adaptive Difficulty: Questions adjust based on your ELO rating
+  
+- Quantum Random Selection: Uses Qiskit to select categories via quantum circuits
+  
+- 4 Math Categories: Algebra, Probability, Geometry, and Calculus
+  
+- ELO Rating System: Track your progress with a competitive rating system
+
 
 ## Approach
 Our approach combines classical adaptive algorithms with quantum-inspired mechanisms:
@@ -40,8 +49,6 @@ Each realm introduces progressively complex math aligned with quantum foundation
 Python (core logic and ELO engine)
 
 Qiskit (quantum randomness & optional circuit demos)
-
-Streamlit / Flask (for interactive front-end)
 
 
 ## How to run
