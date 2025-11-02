@@ -11,6 +11,13 @@ Our project explores how quantum computing concepts—such as probabilistic reas
 
 We’re building this as part of the QFF25 Hackathon, hosted by the University of Ottawa Quantum Club.
 
+## Problem Definition & Motivation:
+### Problem Statement
+As the population becomes more and more dependent on technology, many people struggle to practice math consistently. Our project is an interactive math game to help users improve their mathematical skills through fun exercices with instant feedback.
+
+### Relevance to Quantum Computing
+Our project is relevant to the scope of this competition as it leverages the truly probabilistic nature of wave functions to properly randomize the upcoming challenges the user faces. 
+
 ## Features:
 - Adaptive Difficulty: Questions adjust based on your ELO rating
   
