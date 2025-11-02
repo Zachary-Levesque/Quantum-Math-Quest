@@ -56,14 +56,8 @@ Qiskit (quantum randomness & optional circuit demos)
 ### Setup
 pip install -r requirements.txt
 
-### Training
-python train_model.py
-
-### Evaluation
-python evaluate.py
-
-#### Demo 
-streamlit run app.py
+### Run the game
+python main.py
 
 ## Team members
 ### Zachary Levesque: 
