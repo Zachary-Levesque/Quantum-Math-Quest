@@ -1,322 +1,322 @@
 [
   {
     "id": "geo_easy_001",
-    "question": "What is the area of a rectangle with length 5 and width 3?",
-    "options": ["15", "8", "10", "20"],
-    "correct_answer": "15",
+    "question": "What is the sum of the interior angles of a triangle?",
+    "options": ["180°", "90°", "360°", "270°"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Area = length × width = 5 × 3 = 15."
+    "explanation": "The sum of interior angles of any triangle is always 180°."
   },
   {
     "id": "geo_easy_002",
-    "question": "A triangle has base 6 and height 4. Find its area.",
-    "options": ["12", "24", "10", "14"],
-    "correct_answer": "12",
+    "question": "A square has sides of length 4. What is its area?",
+    "options": ["16", "8", "12", "4"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Area = 1/2 × base × height = 1/2 × 6 × 4 = 12."
+    "explanation": "Area of a square = side² = 4² = 16."
   },
   {
     "id": "geo_easy_003",
-    "question": "Perimeter of a square with side 7?",
-    "options": ["28", "14", "21", "49"],
-    "correct_answer": "28",
+    "question": "A rectangle has length 5 and width 3. What is its perimeter?",
+    "options": ["16", "15", "8", "10"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Perimeter = 4 × side = 4 × 7 = 28."
+    "explanation": "Perimeter = 2*(length+width) = 2*(5+3) = 16."
   },
   {
     "id": "geo_easy_004",
-    "question": "Area of a circle with radius 3 (π ≈ 3.14)?",
-    "options": ["28.26", "18.84", "9.42", "31.4"],
-    "correct_answer": "28.26",
+    "question": "What is the area of a triangle with base 6 and height 4?",
+    "options": ["12", "10", "24", "20"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Area = πr² = 3.14 × 3² = 28.26."
+    "explanation": "Area = 1/2 * base * height = 1/2 * 6 * 4 = 12."
   },
   {
     "id": "geo_easy_005",
-    "question": "A rectangle has length 8, width 2. Perimeter?",
-    "options": ["20", "16", "10", "12"],
-    "correct_answer": "20",
+    "question": "A circle has radius 3. What is its area? (Use π ≈ 3.14)",
+    "options": ["28.26", "9.42", "18.84", "31.4"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Perimeter = 2 × (length + width) = 2 × (8+2) = 20."
+    "explanation": "Area = π*r² = 3.14*3² ≈ 28.26"
   },
   {
     "id": "geo_easy_006",
-    "question": "Area of triangle with base 5 and height 5?",
-    "options": ["12.5", "10", "25", "15"],
-    "correct_answer": "12.5",
+    "question": "A square has sides 7. What is its perimeter?",
+    "options": ["28", "14", "21", "49"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Area = 1/2 × 5 × 5 = 12.5."
+    "explanation": "Perimeter = 4*side = 4*7 = 28"
   },
   {
     "id": "geo_easy_007",
-    "question": "A square has side 9. Its area?",
-    "options": ["81", "36", "18", "72"],
-    "correct_answer": "81",
+    "question": "A triangle has angles 50° and 60°. Find the third angle.",
+    "options": ["70°", "60°", "90°", "50°"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Area = side² = 9² = 81."
+    "explanation": "Sum of angles = 180 → third = 180-50-60 = 70°"
   },
   {
     "id": "geo_easy_008",
-    "question": "Perimeter of triangle with sides 3, 4, 5?",
-    "options": ["12", "10", "9", "11"],
-    "correct_answer": "12",
+    "question": "A rectangle has length 8 and width 5. What is its area?",
+    "options": ["40", "13", "26", "20"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Perimeter = 3+4+5 = 12."
+    "explanation": "Area = length*width = 8*5 = 40"
   },
   {
     "id": "geo_easy_009",
-    "question": "Circle radius 4. Circumference (π≈3.14)?",
-    "options": ["25.12", "12.56", "16", "31.4"],
-    "correct_answer": "25.12",
+    "question": "What is the perimeter of a triangle with sides 3, 4, 5?",
+    "options": ["12", "9", "15", "10"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Circumference = 2πr = 2 × 3.14 × 4 = 25.12."
+    "explanation": "Perimeter = sum of sides = 3+4+5 = 12"
   },
   {
     "id": "geo_easy_010",
-    "question": "Square side 6. Perimeter?",
-    "options": ["24", "12", "36", "18"],
-    "correct_answer": "24",
+    "question": "A circle has diameter 10. What is its radius?",
+    "options": ["5", "10", "2", "20"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Perimeter = 4 × 6 = 24."
+    "explanation": "Radius = diameter/2 = 10/2 = 5"
   },
   {
     "id": "geo_medium_001",
-    "question": "Right triangle with legs 3 and 4. Hypotenuse?",
-    "options": ["5", "6", "7", "25"],
-    "correct_answer": "5",
+    "question": "A circle has circumference 31.4. Find its radius (π ≈ 3.14).",
+    "options": ["5", "10", "15", "7"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Pythagoras: √(3²+4²)=√(9+16)=√25=5."
+    "explanation": "Circumference = 2πr → r = 31.4/(2*3.14) = 5"
   },
   {
     "id": "geo_medium_002",
-    "question": "Rectangle length 10, width 6. Diagonal?",
-    "options": ["√136", "√116", "16", "8"],
-    "correct_answer": "√136",
+    "question": "A triangle has sides 6, 8, 10. What type of triangle is it?",
+    "options": ["Right-angled", "Equilateral", "Isosceles", "Acute"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Diagonal = √(10² + 6²) = √(100+36) = √136."
+    "explanation": "Check Pythagoras: 6²+8²=36+64=100=10² → Right-angled"
   },
   {
     "id": "geo_medium_003",
-    "question": "Circle radius 7. Area?",
-    "options": ["153.86", "154", "140", "49"],
-    "correct_answer": "153.86",
+    "question": "A square has diagonal 10. Find its side length.",
+    "options": ["5√2", "10", "5", "√10"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Area = πr² = 3.14 × 49 ≈ 153.86."
+    "explanation": "Diagonal = side*√2 → side = 10/√2 = 5√2"
   },
   {
     "id": "geo_medium_004",
-    "question": "Equilateral triangle side 8. Area?",
-    "options": ["27.71", "32", "30", "28"],
-    "correct_answer": "27.71",
+    "question": "A trapezoid has bases 8 and 12, height 5. Find area.",
+    "options": ["50", "40", "60", "30"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Area = √3/4 × a² = 0.433 × 64 ≈ 27.71."
+    "explanation": "Area = 1/2*(b1+b2)*h = 1/2*(8+12)*5=50"
   },
   {
     "id": "geo_medium_005",
-    "question": "Perimeter of a regular pentagon with side 5?",
-    "options": ["25", "20", "15", "30"],
-    "correct_answer": "25",
+    "question": "Find the volume of a cube with side 4.",
+    "options": ["64", "16", "32", "128"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Perimeter = 5 × 5 = 25."
+    "explanation": "Volume = side³ = 4³ = 64"
   },
   {
     "id": "geo_medium_006",
-    "question": "Area of parallelogram with base 6, height 4?",
-    "options": ["24", "20", "10", "12"],
-    "correct_answer": "24",
+    "question": "Find the area of a parallelogram with base 6 and height 3.",
+    "options": ["18", "9", "12", "24"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Area = base × height = 6 × 4 = 24."
+    "explanation": "Area = base*height = 6*3 = 18"
   },
   {
     "id": "geo_medium_007",
-    "question": "Trapezoid bases 8, 6, height 5. Area?",
-    "options": ["35", "30", "25", "28"],
-    "correct_answer": "35",
+    "question": "A circle has radius 7. Find its circumference (π≈3.14).",
+    "options": ["43.96", "21.98", "49", "14"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Area = 1/2 × (sum of bases) × height = 0.5 × 14 × 5 = 35."
+    "explanation": "Circumference = 2πr = 2*3.14*7 ≈ 43.96"
   },
   {
     "id": "geo_medium_008",
-    "question": "Diagonal of square side 12?",
-    "options": ["12√2", "24", "12", "6√2"],
-    "correct_answer": "12√2",
+    "question": "A right triangle has legs 3 and 4. Find hypotenuse.",
+    "options": ["5", "7", "6", "25"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Diagonal = side√2 = 12√2."
+    "explanation": "Pythagoras: √(3²+4²)=√(9+16)=√25=5"
   },
   {
     "id": "geo_medium_009",
-    "question": "Right triangle area legs 5, 12?",
-    "options": ["30", "60", "40", "50"],
-    "correct_answer": "30",
+    "question": "A rectangle has diagonal 13 and length 5. Find width.",
+    "options": ["12", "10", "8", "7"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Area = 1/2 × 5 × 12 = 30."
+    "explanation": "Diagonal² = l² + w² → w² = 13²-5²=169-25=144 → w=12"
   },
   {
     "id": "geo_medium_010",
-    "question": "Perimeter of hexagon with side 6?",
-    "options": ["36", "30", "24", "18"],
-    "correct_answer": "36",
+    "question": "Find area of circle with radius 6 (π≈3.14).",
+    "options": ["113.04", "36", "18.84", "12.56"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Perimeter = 6 × 6 = 36."
+    "explanation": "Area = πr² = 3.14*36 ≈ 113.04"
   },
   {
     "id": "geo_hard_001",
-    "question": "Circle radius 10. Circumference?",
-    "options": ["62.8", "31.4", "60", "50"],
-    "correct_answer": "62.8",
+    "question": "A cylinder has radius 3 and height 5. Find its volume (π≈3.14).",
+    "options": ["141.3", "47.1", "94.2", "78.5"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "C = 2πr = 2 × 3.14 × 10 = 62.8."
+    "explanation": "Volume = πr²h = 3.14*3²*5 ≈ 141.3"
   },
   {
     "id": "geo_hard_002",
-    "question": "Volume of cube side 5?",
-    "options": ["125", "25", "75", "100"],
-    "correct_answer": "125",
+    "question": "A sphere has radius 4. Find its volume (π≈3.14).",
+    "options": ["268.1", "201.1", "150.7", "125.6"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Volume = side³ = 5³ = 125."
+    "explanation": "Volume = 4/3 π r³ = 4/3 *3.14*64 ≈ 268.1"
   },
   {
     "id": "geo_hard_003",
-    "question": "Sphere radius 3. Volume?",
-    "options": ["113.04", "28.26", "36", "81"],
-    "correct_answer": "113.04",
+    "question": "Find surface area of a sphere with radius 6 (π≈3.14).",
+    "options": ["452.16", "226.08", "113.04", "36"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "V = 4/3πr³ = 4/3 × 3.14 × 27 ≈ 113.04."
+    "explanation": "Surface area = 4πr² = 4*3.14*36 ≈ 452.16"
   },
   {
     "id": "geo_hard_004",
-    "question": "Cylinder radius 2, height 5. Volume?",
-    "options": ["62.8", "20", "10", "25.12"],
-    "correct_answer": "62.8",
+    "question": "Find the area of an equilateral triangle with side 8.",
+    "options": ["27.71", "32", "64", "16√3"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "V = πr²h = 3.14 × 4 × 5 = 62.8."
+    "explanation": "Area = (√3/4)*side² = 0.433*64 ≈ 27.71"
   },
   {
     "id": "geo_hard_005",
-    "question": "Cone radius 3, height 4. Volume?",
-    "options": ["37.68", "28.26", "36", "12.56"],
-    "correct_answer": "37.68",
+    "question": "A cone has radius 3 and height 4. Find its volume (π≈3.14).",
+    "options": ["37.68", "12.56", "75.36", "28.26"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "V = 1/3 πr²h = 1/3 × 3.14 × 9 × 4 = 37.68."
+    "explanation": "Volume = 1/3 π r² h = 1/3*3.14*9*4 ≈ 37.68"
   },
   {
     "id": "geo_hard_006",
-    "question": "Diagonal of cuboid 3×4×12?",
-    "options": ["13", "14", "15", "16"],
-    "correct_answer": "13",
+    "question": "Find diagonal of a cube with side 5.",
+    "options": ["5√3", "5√2", "10", "15"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "d = √(3²+4²+12²) = √(9+16+144)=√169=13."
+    "explanation": "Space diagonal = side*√3 = 5√3"
   },
   {
     "id": "geo_hard_007",
-    "question": "Surface area of cube side 7?",
-    "options": ["294", "147", "196", "210"],
-    "correct_answer": "294",
+    "question": "A rectangular prism has dimensions 2x3x4. Find its volume.",
+    "options": ["24", "12", "20", "9"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "SA = 6 × 7² = 6 × 49 = 294."
+    "explanation": "Volume = l*w*h = 2*3*4 = 24"
   },
   {
     "id": "geo_hard_008",
-    "question": "Surface area of sphere radius 5?",
-    "options": ["314", "157", "125", "78.5"],
-    "correct_answer": "314",
+    "question": "Find surface area of a cube with side 6.",
+    "options": ["216", "36", "72", "108"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "SA = 4πr² = 4 × 3.14 × 25 = 314."
+    "explanation": "Surface area = 6*side² = 6*36 = 216"
   },
   {
     "id": "geo_hard_009",
-    "question": "Volume of cylinder radius 3, height 10?",
-    "options": ["282.6", "300", "280", "200"],
-    "correct_answer": "282.6",
+    "question": "A trapezoid has sides 10, 8, 6, 4. Find perimeter.",
+    "options": ["28", "24", "30", "26"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "V = πr²h = 3.14 × 9 × 10 = 282.6."
+    "explanation": "Perimeter = sum of sides = 10+8+6+4 = 28"
   },
   {
     "id": "geo_hard_010",
-    "question": "Volume of cone radius 4, height 9?",
-    "options": ["150.72", "144", "100", "125.6"],
-    "correct_answer": "150.72",
+    "question": "Find area of a regular hexagon with side 4.",
+    "options": ["41.57", "24", "32", "48"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "V = 1/3 πr²h = 1/3 × 3.14 ×16 ×9 ≈ 150.72."
+    "explanation": "Area = (3√3/2)*side² ≈ 3*1.732/2*16 ≈ 41.57"
   },
   {
     "id": "geo_expert_001",
-    "question": "Regular tetrahedron side 6. Volume?",
-    "options": ["8√2", "12√2", "6√2", "24√2"],
-    "correct_answer": "8√2",
+    "question": "A sphere has radius r. Express its surface area formula.",
+    "options": ["4πr²", "2πr²", "πr²", "πr³"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "V = a³/(6√2) → check formula: V = a³/(6√2) = 216/(6√2)=36/√2≈25.46? Let's keep as symbolic 8√2 for simplicity."
+    "explanation": "Surface area of a sphere = 4πr²"
   },
   {
     "id": "geo_expert_002",
-    "question": "Sphere radius 6. Volume?",
-    "options": ["904.32", "678.24", "565.2", "452.16"],
-    "correct_answer": "904.32",
+    "question": "A cylinder has radius r and height h. Express its volume formula.",
+    "options": ["πr²h", "2πr²h", "πrh", "πr²+h"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "V = 4/3πr³ = 4/3 × 3.14 × 216 ≈ 904.32."
+    "explanation": "Volume = πr²h"
   },
   {
     "id": "geo_expert_003",
-    "question": "Cylinder radius 5, height 12. Surface area?",
-    "options": ["565", "540", "628", "600"],
-    "correct_answer": "565",
+    "question": "A cone has radius 5 and slant height 13. Find its lateral surface area.",
+    "options": ["65π", "78π", "60π", "52π"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "SA = 2πr(h+r) = 2 × 3.14 × 5 × (12+5)= 2×3.14×5×17≈534.8, round to 565."
+    "explanation": "Lateral area = π r l = π*5*13 = 65π"
   },
   {
     "id": "geo_expert_004",
-    "question": "Cone radius 7, height 24. Volume?",
-    "options": ["1232.72", "1150", "1100", "1000"],
-    "correct_answer": "1232.72",
+    "question": "Find the area of a rhombus with diagonals 10 and 12.",
+    "options": ["60", "50", "30", "40"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "V = 1/3 π r² h = 1/3 × 3.14 × 49 × 24 ≈ 1232.72."
+    "explanation": "Area = (d1*d2)/2 = 10*12/2 = 60"
   },
   {
     "id": "geo_expert_005",
-    "question": "Regular octahedron side 4. Volume?",
-    "options": ["21.33", "32", "25.46", "24"],
-    "correct_answer": "21.33",
+    "question": "A rectangular prism has sides 3, 4, 12. Find the space diagonal.",
+    "options": ["13", "12", "14", "15"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "V = √2/3 × a³ = √2/3 × 64 ≈ 21.33."
+    "explanation": "Diagonal = √(l² + w² + h²) = √(9+16+144)=√169=13"
   },
   {
     "id": "geo_expert_006",
-    "question": "Surface area of regular dodecahedron side 3?",
-    "options": ["156.36", "145.3", "162", "150"],
-    "correct_answer": "156.36",
+    "question": "Find the volume of a cone with radius 3 and height 4 (π≈3.14).",
+    "options": ["37.68", "28.26", "50.24", "56.52"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "SA = 3√25+10√5 a² ≈ 156.36."
+    "explanation": "Volume = 1/3 π r² h = 1/3*3.14*9*4 ≈ 37.68"
   },
   {
     "id": "geo_expert_007",
-    "question": "Sphere radius 10. Volume?",
-    "options": ["4186.67", "4000", "4500", "4200"],
-    "correct_answer": "4186.67",
+    "question": "A cube has volume 125. Find its side length.",
+    "options": ["5", "25", "10", "15"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "V = 4/3 π r³ = 4/3 × 3.14 × 1000 ≈ 4186.67."
+    "explanation": "Volume = side³ → side = ∛125 = 5"
   },
   {
     "id": "geo_expert_008",
-    "question": "Cylinder radius 6, height 10. Volume?",
-    "options": ["1130.4", "1100", "1200", "1000"],
-    "correct_answer": "1130.4",
+    "question": "Find the area of a sector with radius 6 and angle 60°.",
+    "options": ["18.84", "12.56", "37.68", "36"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "V = π r² h = 3.14 × 36 × 10 ≈ 1130.4."
+    "explanation": "Area = (θ/360)πr² = (60/360)*3.14*36 ≈ 18.84"
   },
   {
     "id": "geo_expert_009",
-    "question": "Regular tetrahedron side 8. Surface area?",
-    "options": ["110.85", "100", "115", "120"],
-    "correct_answer": "110.85",
+    "question": "A circle has circumference 62.8. Find its radius (π≈3.14).",
+    "options": ["10", "20", "15", "5"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "SA = √3 a² = √3 ×64 ≈ 110.85."
+    "explanation": "Circumference = 2πr → r = 62.8/(2*3.14) = 10"
   },
   {
     "id": "geo_expert_010",
-    "question": "Cube side 15. Volume?",
-    "options": ["3375", "3000", "3200", "3125"],
-    "correct_answer": "3375",
+    "question": "A cylinder has volume 150π and radius 5. Find height.",
+    "options": ["6", "5", "10", "12"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "V = a³ = 15³ = 3375."
+    "explanation": "Volume = πr²h → h = 150π / (π*25) = 6"
   }
 ]
