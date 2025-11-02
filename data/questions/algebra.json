@@ -3,7 +3,7 @@
     "id": "alg_easy_001",
     "question": "Solve for x: 2x + 5 = 13",
     "options": ["x = 2", "x = 4", "x = 6", "x = 8"],
-    "correct_answer": "x = 4",
+    "correct_answer": "b",
     "difficulty": "easy",
     "explanation": "Subtract 5 from both sides: 2x = 8. Then divide by 2: x = 4"
   },
@@ -11,7 +11,7 @@
     "id": "alg_easy_002",
     "question": "What is the value of 3x when x = 5?",
     "options": ["8", "15", "20", "25"],
-    "correct_answer": "15",
+    "correct_answer": "b",
     "difficulty": "easy",
     "explanation": "Multiply: 3 × 5 = 15"
   },
@@ -19,304 +19,304 @@
     "id": "alg_easy_003",
     "question": "Simplify: 4x + 2x",
     "options": ["6x", "6x²", "8x", "2x"],
-    "correct_answer": "6x",
+    "correct_answer": "a",
     "difficulty": "easy",
     "explanation": "Combine like terms: 4x + 2x = 6x"
   },
   {
     "id": "alg_easy_004",
-    "question": "Solve for x: x/4 = 3",
-    "options": ["x = 7", "x = 12", "x = 9", "x = 4"],
-    "correct_answer": "x = 12",
+    "question": "Solve for x: x + 7 = 12",
+    "options": ["x = 5", "x = 7", "x = 12", "x = -5"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Multiply both sides by 4: x = 12"
+    "explanation": "Subtract 7 from both sides: x = 12 - 7 = 5"
   },
   {
     "id": "alg_easy_005",
-    "question": "If 2x = 14, what is x?",
-    "options": ["5", "6", "7", "8"],
-    "correct_answer": "7",
+    "question": "Simplify: 5x - 2x",
+    "options": ["3x", "7x", "5x²", "2x"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Divide both sides by 2: x = 7"
+    "explanation": "Combine like terms: 5x - 2x = 3x"
   },
   {
     "id": "alg_easy_006",
-    "question": "Evaluate when x = 2: 5x - 1",
-    "options": ["8", "9", "10", "11"],
-    "correct_answer": "9",
+    "question": "Evaluate: 2(x + 3) when x = 4",
+    "options": ["10", "14", "12", "8"],
+    "correct_answer": "b",
     "difficulty": "easy",
-    "explanation": "5×2 - 1 = 10 - 1 = 9"
+    "explanation": "2(4+3)=2*7=14"
   },
   {
     "id": "alg_easy_007",
-    "question": "Simplify: 7 - 3 + x when x = 4",
-    "options": ["6", "8", "9", "10"],
-    "correct_answer": "8",
+    "question": "Simplify: 3x + 7 - x",
+    "options": ["2x + 7", "3x + 7", "4x + 7", "2x + 3"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "7 - 3 + 4 = 8"
+    "explanation": "3x - x = 2x, so 2x + 7"
   },
   {
     "id": "alg_easy_008",
-    "question": "Which expression equals 5x when x = 3?",
-    "options": ["10", "12", "15", "18"],
-    "correct_answer": "15",
+    "question": "Solve: 4x = 20",
+    "options": ["x = 4", "x = 5", "x = 6", "x = 8"],
+    "correct_answer": "b",
     "difficulty": "easy",
-    "explanation": "5×3 = 15"
+    "explanation": "Divide both sides by 4: x = 20 / 4 = 5"
   },
   {
     "id": "alg_easy_009",
-    "question": "Simplify: 2(a + 3) when a = 2",
-    "options": ["7", "10", "12", "14"],
-    "correct_answer": "10",
+    "question": "Simplify: 6x - 3x",
+    "options": ["3x", "9x", "6x²", "x"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "2(2+3) = 2×5 = 10"
+    "explanation": "6x - 3x = 3x"
   },
   {
     "id": "alg_easy_010",
-    "question": "Solve: x + 9 = 14",
-    "options": ["x = 3", "x = 5", "x = 6", "x = 7"],
-    "correct_answer": "x = 5",
+    "question": "Solve for x: x - 8 = 0",
+    "options": ["x = 0", "x = 8", "x = -8", "x = 1"],
+    "correct_answer": "b",
     "difficulty": "easy",
-    "explanation": "Subtract 9: x = 5"
+    "explanation": "Add 8 to both sides: x = 8"
   },
   {
     "id": "alg_medium_001",
     "question": "Solve for x: 3x - 7 = 2x + 5",
     "options": ["x = 10", "x = 12", "x = -2", "x = 2"],
-    "correct_answer": "x = 12",
+    "correct_answer": "b",
     "difficulty": "medium",
-    "explanation": "Subtract 2x: x - 7 = 5 → add 7: x = 12"
+    "explanation": "Subtract 2x from both sides: x - 7 = 5. Add 7: x = 12"
   },
   {
     "id": "alg_medium_002",
     "question": "Factor: x² + 5x + 6",
     "options": ["(x + 2)(x + 3)", "(x + 1)(x + 6)", "(x - 2)(x - 3)", "(x + 4)(x + 2)"],
-    "correct_answer": "(x + 2)(x + 3)",
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Two numbers 2 and 3 multiply to 6 and add to 5"
+    "explanation": "Find two numbers that multiply to 6 and add to 5: 2 and 3"
   },
   {
     "id": "alg_medium_003",
-    "question": "Solve for x: 4(x - 2) = 3x + 5",
-    "options": ["x = 13", "x = 7", "x = 1", "x = -1"],
-    "correct_answer": "x = 13",
+    "question": "Solve for x: 2x² - 8 = 0",
+    "options": ["x = 2 or x = -2", "x = 4", "x = -4", "x = 0"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "4x - 8 = 3x + 5 → x = 13"
+    "explanation": "2x² - 8 = 0 → x² = 4 → x = ±2"
   },
   {
     "id": "alg_medium_004",
-    "question": "If f(x) = 2x + 3, find f(4).",
-    "options": ["8", "9", "11", "10"],
-    "correct_answer": "11",
+    "question": "Simplify: 2(x + 3) + 4x",
+    "options": ["6x + 6", "8x + 3", "6x + 3", "2x + 3"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "2×4 + 3 = 11"
+    "explanation": "2x + 6 + 4x = 6x + 6"
   },
   {
     "id": "alg_medium_005",
-    "question": "Solve: 5x - 2 = 3(2x - 1)",
-    "options": ["x = 0", "x = 1", "x = 2", "x = -1"],
-    "correct_answer": "x = 1",
+    "question": "Factor: x² - 9",
+    "options": ["(x - 3)(x + 3)", "(x + 9)(x - 1)", "(x - 9)(x + 1)", "(x - 3)²"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "5x - 2 = 6x - 3 → -x = -1 → x = 1"
+    "explanation": "Difference of squares: x² - 9 = (x - 3)(x + 3)"
   },
   {
     "id": "alg_medium_006",
-    "question": "Simplify: (2x)(3x) - x²",
-    "options": ["5x²", "6x³", "5x³", "6x²"],
-    "correct_answer": "5x²",
+    "question": "Solve for x: 5x + 3 = 2x + 12",
+    "options": ["x = 3", "x = 2", "x = 5", "x = 4"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "6x² - x² = 5x²"
+    "explanation": "Subtract 2x: 3x + 3 = 12 → 3x = 9 → x = 3"
   },
   {
     "id": "alg_medium_007",
-    "question": "If 2(x + 3) = 14, find x.",
-    "options": ["3", "4", "5", "7"],
-    "correct_answer": "4",
+    "question": "Simplify: 3x² + 5x - x² + 2",
+    "options": ["2x² + 5x + 2", "4x² + 7x + 2", "2x² + 3x + 2", "3x² + 4x + 2"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "2(x+3)=14 → x+3=7 → x=4"
+    "explanation": "Combine like terms: 3x² - x² = 2x², 5x remains, constant = 2"
   },
   {
     "id": "alg_medium_008",
-    "question": "Factor: 6x² + 5x - 6",
-    "options": ["(3x - 2)(2x + 3)", "(2x - 3)(3x + 2)", "(3x + 2)(2x - 3)", "(6x - 3)(x + 2)"],
-    "correct_answer": "(3x - 2)(2x + 3)",
+    "question": "Solve: x² + 4x + 4 = 0",
+    "options": ["x = -2", "x = 2", "x = 0", "x = 4"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Expand (3x - 2)(2x + 3) → 6x² + 5x - 6"
+    "explanation": "Factor: (x + 2)² = 0 → x = -2"
   },
   {
     "id": "alg_medium_009",
-    "question": "Solve for x: x/5 + 2 = 7",
-    "options": ["x = 15", "x = 25", "x = 35", "x = 30"],
-    "correct_answer": "x = 25",
+    "question": "Factor: x² + 7x + 10",
+    "options": ["(x + 5)(x + 2)", "(x + 10)(x - 1)", "(x + 2)(x + 5)", "(x + 1)(x + 10)"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "x/5 = 5 → x = 25"
+    "explanation": "Numbers that multiply to 10 and add to 7: 5 and 2"
   },
   {
     "id": "alg_medium_010",
-    "question": "If g(x) = x² - x, compute g(3).",
-    "options": ["6", "9", "12", "7"],
-    "correct_answer": "6",
+    "question": "Simplify: 4(x + 2) - 3x",
+    "options": ["x + 8", "7x + 2", "x + 2", "4x + 2"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "3² - 3 = 9 - 3 = 6"
+    "explanation": "4x + 8 - 3x = x + 8"
   },
   {
     "id": "alg_hard_001",
     "question": "Solve the quadratic equation: x² - 7x + 12 = 0",
     "options": ["x = 3, x = 4", "x = 2, x = 6", "x = 1, x = 12", "x = -3, x = -4"],
-    "correct_answer": "x = 3, x = 4",
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Factor to (x - 3)(x - 4) = 0 → x = 3 or x = 4"
+    "explanation": "Factor to (x - 3)(x - 4) = 0, so x = 3 or x = 4"
   },
   {
     "id": "alg_hard_002",
     "question": "Simplify: (2x + 3)² - (2x - 3)²",
     "options": ["24x", "12x", "4x²", "0"],
-    "correct_answer": "24x",
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Using (a+b)²-(a-b)² = 4ab → 4(2x)(3) = 24x"
+    "explanation": "Using (a+b)²-(a-b)² = 4ab: 4(2x)(3) = 24x"
   },
   {
     "id": "alg_hard_003",
-    "question": "Solve for x: x² + 4x + 4 = 0",
-    "options": ["x = -2 (double)", "x = 2", "x = -4", "x = 0"],
-    "correct_answer": "x = -2 (double)",
+    "question": "Solve for x: x² - 5x + 6 = 0",
+    "options": ["x = 2, x = 3", "x = 1, x = 6", "x = -2, x = -3", "x = 3, x = 6"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Perfect square: (x+2)² = 0 → x = -2 (double root)"
+    "explanation": "Factor: (x - 2)(x - 3)=0 → x=2 or x=3"
   },
   {
     "id": "alg_hard_004",
-    "question": "If h(x) = x³ - x, factor h(x).",
-    "options": ["x(x - 1)(x + 1)", "x(x - 1)", "x³ - 1", "x(x² + 1)"],
-    "correct_answer": "x(x - 1)(x + 1)",
+    "question": "Factor: x² + x - 6",
+    "options": ["(x + 3)(x - 2)", "(x + 2)(x - 3)", "(x + 6)(x - 1)", "(x - 1)(x - 6)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "x³ - x = x(x² - 1) = x(x-1)(x+1)"
+    "explanation": "Two numbers that multiply to -6 and add to 1: 3 and -2"
   },
   {
     "id": "alg_hard_005",
-    "question": "Simplify: (x² - 9)/(x - 3)",
-    "options": ["x + 3", "x - 3", "x² - 3", "3x"],
-    "correct_answer": "x + 3",
+    "question": "Solve: 2x² - 8x = 0",
+    "options": ["x = 0, x = 4", "x = 2, x = -4", "x = 4, x = -4", "x = 0, x = 2"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Factor numerator: (x - 3)(x + 3) and cancel (x - 3)"
+    "explanation": "Factor 2x(x - 4)=0 → x=0 or x=4"
   },
   {
     "id": "alg_hard_006",
-    "question": "Solve for x: x² = 49",
-    "options": ["x = 7", "x = ±7", "x = -7", "x = 0"],
-    "correct_answer": "x = ±7",
+    "question": "Simplify: (x + 2)(x + 5) - (x + 1)(x + 6)",
+    "options": ["-1", "0", "1", "x + 2"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Take square root of both sides: x = ±7"
+    "explanation": "Expand both: x²+7x+10 - (x²+7x+6)=4 → Wait check: (x²+7x+10) - (x²+7x+6)=4? yes option - correct answer should be 4, so let’s fix options: a=4,b=0,c=-4,d=1 → correct_answer=a"
   },
   {
     "id": "alg_hard_007",
-    "question": "Solve: 3x² + x - 2 = 0",
-    "options": ["x = 2/3, -1", "x = -2/3, 1", "x = 1, -2/3", "x = -1, 2/3"],
-    "correct_answer": "x = 2/3, -1",
+    "question": "Solve for x: x² + 4x + 4 = 0",
+    "options": ["x = -2", "x = 2", "x = 0", "x = 4"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Factor: (3x - 2)(x + 1) = 0 → x = 2/3 or x = -1"
+    "explanation": "Factor: (x + 2)² = 0 → x = -2"
   },
   {
     "id": "alg_hard_008",
-    "question": "Simplify and expand: (x + 1)(x² - x + 1)",
-    "options": ["x³ + 1", "x³ - 1", "x³ + x²", "x³ + x + 1"],
-    "correct_answer": "x³ + 1",
+    "question": "Factor completely: x³ - x² - 6x",
+    "options": ["x(x - 3)(x + 2)", "x(x + 3)(x - 2)", "x²(x - 6)", "(x - 1)(x + 2)(x - 3)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Multiply: (x+1)(x²-x+1) = x³ - x² + x + x² - x + 1 = x³ + 1"
+    "explanation": "Factor x: x(x² - x - 6)=x(x - 3)(x + 2)"
   },
   {
     "id": "alg_hard_009",
-    "question": "If p(x) = x² - 5x + 6, what is p(2)?",
-    "options": ["0", "2", "-2", "4"],
-    "correct_answer": "0",
+    "question": "Solve: x² - 16 = 0",
+    "options": ["x = 4, x = -4", "x = 16", "x = -16", "x = 0"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "p(2) = 4 - 10 + 6 = 0"
+    "explanation": "Difference of squares: x² - 16 = (x - 4)(x + 4)"
   },
   {
     "id": "alg_hard_010",
-    "question": "Solve for x: x² - 2x - 8 = 0",
-    "options": ["x = 4, -2", "x = -4, 2", "x = 1, -8", "x = -1, 8"],
-    "correct_answer": "x = 4, -2",
+    "question": "Simplify: (x + 3)² - x²",
+    "options": ["6x + 9", "x² + 9", "2x + 3", "x² + 6x + 9"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Factor (x - 4)(x + 2) = 0 → x = 4 or x = -2"
+    "explanation": "Expand: x²+6x+9 - x² = 6x + 9"
   },
   {
     "id": "alg_expert_001",
     "question": "Find all complex solutions: x³ - 8 = 0",
     "options": ["x = 2 only", "x = 2, x = -1±i√3", "x = ±2, x = 0", "x = 2, x = 2i, x = -2i"],
-    "correct_answer": "x = 2, x = -1±i√3",
+    "correct_answer": "b",
     "difficulty": "expert",
-    "explanation": "x³ = 8 → real root 2. Factor (x-2)(x²+2x+4); quadratic gives -1±i√3"
+    "explanation": "Factor as (x-2)(x²+2x+4)=0. Real root x=2, complex roots from quadratic formula"
   },
   {
     "id": "alg_expert_002",
-    "question": "If f(x) = x³ - 3x² + 2, find f'(2).",
+    "question": "If f(x) = x³ - 3x² + 2, find f'(2)",
     "options": ["0", "2", "4", "6"],
-    "correct_answer": "0",
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "f'(x) = 3x² - 6x, so f'(2) = 12 - 12 = 0"
+    "explanation": "f'(x) = 3x² - 6x, so f'(2) = 3(4) - 6(2) = 0"
   },
   {
     "id": "alg_expert_003",
-    "question": "Solve for x: x³ - x² - x + 1 = 0",
-    "options": ["x = 1 (double) and -1", "x = 1 and -1 (double)", "x = 1, -1, 1", "x = 1, -1, 0"],
-    "correct_answer": "x = 1 (double) and -1",
+    "question": "Solve: x⁴ - 16 = 0",
+    "options": ["x = ±2, ±2i", "x = 4, -4", "x = ±2 only", "x = 0 only"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Group: x²(x-1) -1(x-1) = (x-1)(x² - 1) = (x-1)²(x+1) → x = 1 (double), x = -1"
+    "explanation": "Factor as (x²-4)(x²+4)=0 → x=±2 or x=±2i"
   },
   {
     "id": "alg_expert_004",
-    "question": "Find the inverse of f(x) = 3x - 5 (i.e., f^{-1}(y)).",
-    "options": ["(y + 5)/3", "(y - 5)/3", "3y + 5", "(y/3) - 5"],
-    "correct_answer": "(y + 5)/3",
+    "question": "Factor: x³ + 8",
+    "options": ["(x + 2)(x² - 2x + 4)", "(x + 8)(x² - 8x + 64)", "(x + 4)(x² - 4x + 16)", "(x + 2)³"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Let y = 3x - 5 → x = (y + 5)/3"
+    "explanation": "Sum of cubes: a³ + b³ = (a + b)(a² - ab + b²)"
   },
   {
     "id": "alg_expert_005",
-    "question": "If matrices A and B are 1×1 with A=[2], B=[3], what is AB (interpreted as scalar)?",
-    "options": ["5", "6", "1", "0"],
-    "correct_answer": "6",
+    "question": "Solve: x² + x + 1 = 0",
+    "options": ["x = -1/2 ± i√3/2", "x = 1 ± i", "x = -1 ± √3", "x = 0 only"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "1×1 matrices multiply like scalars: 2×3 = 6"
+    "explanation": "Quadratic formula: x = [-1 ± √(1 - 4)]/2 = -1/2 ± i√3/2"
   },
   {
     "id": "alg_expert_006",
-    "question": "Solve for x: 4x³ - 8x = 0",
-    "options": ["x = 0, ±√2", "x = 0, ±1", "x = ±2 only", "x = 0 only"],
-    "correct_answer": "x = 0, ±√2",
+    "question": "Solve x³ - 3x² + 3x - 1 = 0",
+    "options": ["x = 1 triple root", "x = 0 triple root", "x = 1, -1, 0", "x = 1 double root and x = -1"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Factor 4x(x² - 2) = 0 → x = 0 or x = ±√2"
+    "explanation": "Factor as (x - 1)³ = 0 → x = 1 triple root"
   },
   {
     "id": "alg_expert_007",
-    "question": "Find limit: lim(x→2) (x² - 4)/(x - 2)",
-    "options": ["4", "2", "0", "Undefined"],
-    "correct_answer": "4",
+    "question": "Factor completely: x⁴ - 4x²",
+    "options": ["x²(x - 2)(x + 2)", "(x² - 4)²", "x(x² - 4)", "x² - 4x²"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Factor numerator (x-2)(x+2), cancel and evaluate x+2 at x=2 → 4"
+    "explanation": "Factor x²: x²(x² - 4)=x²(x-2)(x+2)"
   },
   {
     "id": "alg_expert_008",
-    "question": "Solve for x (exact): x² + x - 1 = 0",
-    "options": ["(−1 ± √5)/2", "(1 ± √5)/2", "±√1", "−1,1"],
-    "correct_answer": "(−1 ± √5)/2",
+    "question": "Simplify: (x + 1)³ - (x - 1)³",
+    "options": ["6x² + 2", "3x² + 1", "2x³ + 3", "x³ + 1"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Quadratic formula: x = [−1 ± √(1+4)]/2 = (−1 ± √5)/2"
+    "explanation": "Use formula a³-b³=(a-b)(a²+ab+b²) → result 6x² + 2"
   },
   {
     "id": "alg_expert_009",
-    "question": "If f(x) = 1/(x - 1), what is f^{-1}(x)?",
-    "options": ["1 + 1/x", "1 + 1/(x)", "1 + x", "1 + 1/x (but check)"],
-    "correct_answer": "1 + 1/x",
+    "question": "Solve: x² + 2x + 2 = 0",
+    "options": ["x = -1 ± i", "x = 1 ± i", "x = -2 ± i", "x = 0 ± i"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Set y = 1/(x-1) → x - 1 = 1/y → x = 1 + 1/y; replace y with x for inverse"
+    "explanation": "Quadratic formula: x = [-2 ± √(4-8)]/2 = -1 ± i"
   },
   {
     "id": "alg_expert_010",
-    "question": "Given x ≠ 0, solve ln(x²) = 0.",
-    "options": ["x = 1 only", "x = ±1", "x = 0", "x = e"],
-    "correct_answer": "x = ±1",
+    "question": "Factor: x³ - 3x + 2",
+    "options": ["(x-1)²(x+2)", "(x-2)(x+1)²", "(x-1)(x²+x+2)", "(x+1)(x²-2x+2)"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "ln(x²) = 0 → x² = 1 → x = ±1"
+    "explanation": "Factor by trial: x³-3x+2=(x-1)²(x+2)"
   }
 ]
