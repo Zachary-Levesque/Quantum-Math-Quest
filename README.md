@@ -69,7 +69,7 @@ Clone the GitHub Repositorie
 pip install matplotlib quantum-random
 
 ### Run the game
-python _init_.py
+python src/main.py
 
 ## Team members
 ### Zachary Levesque: 
