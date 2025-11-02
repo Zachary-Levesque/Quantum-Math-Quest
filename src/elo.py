@@ -1,3 +1,4 @@
+# This function is used to update the elo of the user
 def update_elo(elo, correct, difficulty_index, quantum_k=None, base_K=30):
     difficulty_multiplier = 1 + 0.25 * difficulty_index
     if elo < 500:
@@ -17,7 +18,7 @@ def update_elo(elo, correct, difficulty_index, quantum_k=None, base_K=30):
         elo -= K * loss_multiplier
     return max(elo, 0)
 
-
+# Based on the elo, what is the difficulty for the next question
 def get_difficulty(elo):
     if elo < 500:
         return 0

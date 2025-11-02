@@ -1,3 +1,4 @@
+# In order to acheive this code, we must import many libraries
 import tkinter as tk
 from tkinter import messagebox
 import time
@@ -7,16 +8,16 @@ from elo import update_elo, get_difficulty
 from get_questions import get_questions
 from quantum_kfactor import QuantumKEstimator
 
-
+# This Class defines the entire Math Game
 class MathQuizGame:
    def __init__(self, root):
-       # Window setup
+       # Window interface setup
        self.root = root
        self.root.title("Math Quiz Game")
        self.root.geometry("750x650")
        self.root.configure(bg="#1a1a2e")
 
-       # Game state
+       # Game state (What is the subject, difficulty, etc)
        self.elo = 500
        self.subjects = ["Geometry", "Algebra", "Calculus", "Probability"]
        self.difficulties = ["Easy", "Medium", "Hard", "Expert"]
@@ -27,10 +28,10 @@ class MathQuizGame:
        self.current_difficulty_index = None
        self.question_start_time = None
 
-       # Quantum K estimator
+       # Getting the K estimator from quantum_kfactor
        self.k_est = QuantumKEstimator()
 
-       # Tracking for “every 5 questions” and plotting by question index
+       # Every 5 questions, we plot the elo variation
        self.question_counter = 0
        self.elo_question_index = []
        self.elo_values = []
@@ -342,12 +343,12 @@ class MathQuizGame:
        plt.tight_layout()
        plt.show()
 
-
+# This main function is the base of the program. It calls the game function
 def main():
    root = tk.Tk()
    app = MathQuizGame(root)
    root.mainloop()
 
-
+# Call the main function
 if __name__ == "__main__":
    main()

@@ -1,6 +1,8 @@
+# Import qiskit libraries in order to create our quantum circuit
 from qiskit import QuantumCircuit, transpile
 from qiskit_aer import AerSimulator
 
+# This function is used to randomly select a number between 0 and 3 using a quantum circuit
 def quantum_rand_0_to_3():
     qc = QuantumCircuit(2, 2)
     qc.h(0)
@@ -13,6 +15,7 @@ def quantum_rand_0_to_3():
     bits = job.result().get_memory()[0]
     return int(bits[::-1], 2)
 
+# This function is used to randomly select a number between 0 and 9 using a quantum circuit
 def quantum_rand_1_to_10():
     backend = AerSimulator()
     qc = QuantumCircuit(4, 4)
