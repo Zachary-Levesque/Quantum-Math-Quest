@@ -61,7 +61,7 @@ Qiskit (quantum randomness & optional circuit demos)
 ## How to run
 
 ### Setup
-pip install -r requirements.txt
+Install libraries in Requirements.txt
 
 ### Run the game
 python main.py
