@@ -13,7 +13,7 @@ def quantum_rand_0_to_3():
     bits = job.result().get_memory()[0]
     return int(bits[::-1], 2)
 
-def quantum_rand_0_to_9():
+def quantum_rand_1_to_10():
     backend = AerSimulator()    
     qc = QuantumCircuit(4, 4)
     for i in range(4):
@@ -25,4 +25,4 @@ def quantum_rand_0_to_9():
     number = int(bits[::-1], 2)
         
     if number <= 9:
-        return number
+        return number + 1
