@@ -1,4 +1,5 @@
-# Quantum-Bros
+# Quantum Math Quest
+## Created by the Quantum Bros: Zachary Levesque, Aleksa Zarin and Samir Jr. Abou Serhal
 Hello World! Welcome to our repository for the 2025 Qiskit Hackathon featuring our project: Quantum Math Quest — a gamified, adaptive math challenge powered by quantum-inspired algorithms.
 
 
