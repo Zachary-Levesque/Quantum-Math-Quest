@@ -3,7 +3,7 @@
     "id": "calc_easy_001",
     "question": "Find the derivative of f(x) = 3x²",
     "options": ["3x", "6x", "3", "x²"],
-    "correct_answer": "6x",
+    "correct_answer": "b",
     "difficulty": "easy",
     "explanation": "Power rule: d/dx[x^n] = n*x^(n-1), so d/dx[3x²] = 6x."
   },
@@ -11,312 +11,312 @@
     "id": "calc_easy_002",
     "question": "Find d/dx of f(x) = 5x",
     "options": ["0", "5", "x", "1"],
-    "correct_answer": "5",
+    "correct_answer": "b",
     "difficulty": "easy",
     "explanation": "Derivative of kx = k, so d/dx[5x] = 5."
   },
   {
     "id": "calc_easy_003",
-    "question": "Compute ∫ 2 dx",
-    "options": ["2x + C", "x² + C", "2 + C", "x + C"],
-    "correct_answer": "2x + C",
+    "question": "Find derivative of f(x) = x³",
+    "options": ["3x²", "x²", "x³", "1"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Integral of constant k dx is kx + C, so ∫2 dx = 2x + C."
+    "explanation": "d/dx[x³] = 3x²"
   },
   {
     "id": "calc_easy_004",
-    "question": "Derivative of f(x) = 7",
+    "question": "Find derivative of f(x) = 7",
     "options": ["0", "7", "1", "x"],
-    "correct_answer": "0",
+    "correct_answer": "a",
     "difficulty": "easy",
     "explanation": "Derivative of a constant is 0."
   },
   {
     "id": "calc_easy_005",
-    "question": "Find d/dx of f(x) = x³",
-    "options": ["3x²", "x²", "x³", "3x³"],
-    "correct_answer": "3x²",
+    "question": "d/dx of f(x) = 2x + 3",
+    "options": ["2", "3", "2x + 3", "1"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Power rule: derivative of x³ is 3x²."
+    "explanation": "d/dx[2x+3] = 2"
   },
   {
     "id": "calc_easy_006",
-    "question": "∫ 5 dx",
-    "options": ["5x + C", "x⁵ + C", "5 + C", "x + C"],
-    "correct_answer": "5x + C",
+    "question": "Find derivative: f(x) = 4x⁵",
+    "options": ["20x⁴", "4x⁴", "5x⁴", "x⁵"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Integral of constant k dx = kx + C."
+    "explanation": "d/dx[x^n] = n*x^(n-1), 4*5x⁴=20x⁴"
   },
   {
     "id": "calc_easy_007",
-    "question": "Derivative of f(x) = x⁴",
-    "options": ["4x³", "x³", "4x⁴", "x⁴"],
-    "correct_answer": "4x³",
+    "question": "d/dx of f(x) = x² + 3x",
+    "options": ["2x + 3", "x² + 3", "2x", "x + 3"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Power rule: d/dx[x⁴] = 4x³."
+    "explanation": "Derivative term by term: 2x + 3"
   },
   {
     "id": "calc_easy_008",
-    "question": "Compute ∫ x dx",
-    "options": ["x² + C", "x²/2 + C", "x + C", "2x + C"],
-    "correct_answer": "x²/2 + C",
+    "question": "Find derivative of f(x) = 6x³ - 2x",
+    "options": ["18x² - 2", "18x² + 2", "6x² - 2", "12x² - 2"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Integral ∫x dx = x²/2 + C."
+    "explanation": "d/dx[6x³] = 18x², d/dx[-2x] = -2"
   },
   {
     "id": "calc_easy_009",
-    "question": "Find d/dx of f(x) = 2x³",
-    "options": ["6x²", "2x²", "6x³", "2x³"],
-    "correct_answer": "6x²",
+    "question": "d/dx of f(x) = x⁴ - 5x² + 6",
+    "options": ["4x³ - 10x", "4x³ + 10x", "x³ - 10x", "4x³ - 5x²"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "d/dx[2x³] = 2 * 3x² = 6x²."
+    "explanation": "Derivative term by term"
   },
   {
     "id": "calc_easy_010",
-    "question": "∫ 7 dx",
-    "options": ["7x + C", "x⁷ + C", "7 + C", "x + C"],
-    "correct_answer": "7x + C",
+    "question": "d/dx of f(x) = 3x² + 7",
+    "options": ["6x", "3x²", "6x + 7", "10x"],
+    "correct_answer": "a",
     "difficulty": "easy",
-    "explanation": "Integral of constant 7 is 7x + C."
+    "explanation": "Derivative: 6x + 0 = 6x"
   },
   {
     "id": "calc_medium_001",
-    "question": "Derivative of f(x) = x² + 3x",
-    "options": ["2x + 3", "x² + 3", "2x", "3x²"],
-    "correct_answer": "2x + 3",
+    "question": "Find derivative: f(x) = x³ + 2x²",
+    "options": ["3x² + 4x", "3x³ + 4x", "3x² + 2", "x³ + 4x"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Derivative term by term: d/dx[x²]=2x, d/dx[3x]=3 → 2x+3."
+    "explanation": "Derivative term by term: 3x² + 4x"
   },
   {
     "id": "calc_medium_002",
-    "question": "Compute ∫ (3x² + 2) dx",
-    "options": ["x³ + 2x + C", "x³ + x² + C", "x³ + 4 + C", "3x³ + 2x + C"],
-    "correct_answer": "x³ + 2x + C",
+    "question": "d/dx of f(x) = 5x³ - 3x² + x",
+    "options": ["15x² - 6x + 1", "15x² - 3x + 1", "5x² - 6x + 1", "15x³ - 6x + 1"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Integrate term by term: ∫3x² dx = x³, ∫2 dx = 2x."
+    "explanation": "Derivative term by term"
   },
   {
     "id": "calc_medium_003",
-    "question": "Find d/dx of f(x) = 5x³ + 2x",
-    "options": ["15x² + 2", "5x² + 2", "15x³ + 2x", "5x³ + 2x²"],
-    "correct_answer": "15x² + 2",
+    "question": "Derivative: f(x) = x⁵ - 2x³ + x",
+    "options": ["5x⁴ - 6x² + 1", "5x⁴ - 2x² + 1", "5x⁴ - 6x²", "x⁴ - 6x² +1"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Derivative: d/dx[5x³]=15x², d/dx[2x]=2."
+    "explanation": "Derivative term by term"
   },
   {
     "id": "calc_medium_004",
-    "question": "∫ (4x³ - 2x) dx",
-    "options": ["x⁴ - x² + C", "x⁴ - 2x² + C", "4x⁴ - 2x² + C", "x⁴ + x² + C"],
-    "correct_answer": "x⁴ - x² + C",
+    "question": "Find derivative: f(x) = 3x⁴ + 2x² - 5",
+    "options": ["12x³ + 4x", "12x³ + 4x - 5", "3x³ + 2x", "12x⁴ + 4x²"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Integrate term by term: ∫4x³ dx = x⁴, ∫-2x dx = -x²."
+    "explanation": "Derivative: 12x³ + 4x"
   },
   {
     "id": "calc_medium_005",
-    "question": "Derivative of f(x) = 7x⁴ - 3x² + 5",
-    "options": ["28x³ - 6x", "28x³ - 6x + 5", "7x³ - 3x", "28x⁴ - 6x²"],
-    "correct_answer": "28x³ - 6x",
+    "question": "d/dx of f(x) = 2x² - 3x + 4",
+    "options": ["4x - 3", "2x - 3", "4x + 3", "2x + 3"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "d/dx[7x⁴]=28x³, d/dx[-3x²]=-6x, d/dx[5]=0."
+    "explanation": "Derivative term by term"
   },
   {
     "id": "calc_medium_006",
-    "question": "Compute ∫ (6x² + 4x + 3) dx",
-    "options": ["2x³ + 2x² + 3x + C", "2x³ + 4x² + 3x + C", "x³ + 2x² + 3x + C", "6x³ + 4x² + 3x + C"],
-    "correct_answer": "2x³ + 2x² + 3x + C",
+    "question": "f(x) = x³ - x² + x - 1, find f'(x)",
+    "options": ["3x² - 2x + 1", "3x² - x + 1", "3x² - 2x", "3x³ - 2x² +1"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Integrate term by term: ∫6x² dx=2x³, ∫4x dx=2x², ∫3 dx=3x."
+    "explanation": "Derivative term by term"
   },
   {
     "id": "calc_medium_007",
-    "question": "Find d/dx of f(x) = x² * sin(x)",
-    "options": ["2x sin(x) + x² cos(x)", "2x sin(x) - x² cos(x)", "x² cos(x)", "2x sin(x)"],
-    "correct_answer": "2x sin(x) + x² cos(x)",
+    "question": "Derivative: f(x) = 4x³ + 5x² - 6x + 7",
+    "options": ["12x² + 10x - 6", "12x² + 5x - 6", "4x² + 10x - 6", "12x³ + 10x² - 6"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Product rule: d/dx[u*v]=u'v + uv' → u=x²,u'=2x,v=sin(x),v'=cos(x)."
+    "explanation": "Derivative term by term"
   },
   {
     "id": "calc_medium_008",
-    "question": "∫ (2x e^x) dx",
-    "options": ["2x e^x - 2 e^x + C", "2x e^x + C", "x² e^x + C", "2 e^x + C"],
-    "correct_answer": "2x e^x - 2 e^x + C",
+    "question": "Find derivative: f(x) = x⁴ - 4x³ + x² - 1",
+    "options": ["4x³ - 12x² + 2x", "4x³ - 12x² + x", "x³ - 12x² + 2x", "4x³ - 4x² + 2x"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Integration by parts: ∫u dv = uv - ∫v du → ∫2x e^x dx = 2x e^x - 2 e^x + C."
+    "explanation": "Derivative term by term"
   },
   {
     "id": "calc_medium_009",
-    "question": "Derivative of f(x) = e^(2x)",
-    "options": ["2 e^(2x)", "e^(2x)", "2x e^(2x)", "2 e^x"],
-    "correct_answer": "2 e^(2x)",
+    "question": "f(x) = x²(x+1), find f'(x)",
+    "options": ["3x² + 2x", "x² + 2x", "2x² + x", "3x² + x"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Chain rule: d/dx[e^(2x)]=e^(2x)*2=2 e^(2x)."
+    "explanation": "Use product rule: d/dx[x²(x+1)] = x² + 2x² + 2x = 3x² + 2x"
   },
   {
     "id": "calc_medium_010",
-    "question": "Compute ∫ cos(x) dx",
-    "options": ["sin(x) + C", "-sin(x) + C", "cos(x) + C", "-cos(x) + C"],
-    "correct_answer": "sin(x) + C",
+    "question": "Derivative: f(x) = (x-1)(x+2)",
+    "options": ["2x + 1", "x² + 1", "x² + x + 2", "2x - 1"],
+    "correct_answer": "a",
     "difficulty": "medium",
-    "explanation": "Integral of cos(x) dx = sin(x) + C."
+    "explanation": "Use product rule: f'(x) = 1*(x+2)+(x-1)*1 = 2x + 1"
   },
   {
     "id": "calc_hard_001",
-    "question": "Find d/dx of f(x) = x² * e^x",
-    "options": ["2x e^x + x² e^x", "x² e^x", "2x e^x", "x e^x"],
-    "correct_answer": "2x e^x + x² e^x",
+    "question": "Find derivative: f(x) = x³ * sin(x)",
+    "options": ["3x²*sin(x) + x³*cos(x)", "3x²*sin(x) - x³*cos(x)", "x³*cos(x)", "3x²*cos(x)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Product rule: d/dx[u*v] = u'v + uv', u=x²,u'=2x,v=e^x,v'=e^x → 2x e^x + x² e^x."
+    "explanation": "Use product rule: d(uv)/dx = u'v + uv' → 3x²*sin(x) + x³*cos(x)"
   },
   {
     "id": "calc_hard_002",
-    "question": "Compute ∫ x cos(x) dx",
-    "options": ["x sin(x) + cos(x) + C", "x sin(x) - cos(x) + C", "sin(x) + C", "-x sin(x) + C"],
-    "correct_answer": "x sin(x) + cos(x) + C",
+    "question": "Find derivative: f(x) = e^x * x²",
+    "options": ["e^x*x² + 2x*e^x", "2x*e^x", "e^x*x²", "e^x*(x² +1)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Integration by parts: ∫u dv = uv - ∫v du, u=x, dv=cos(x)dx → x sin(x) - ∫ sin(x) dx = x sin(x) + cos(x) + C."
+    "explanation": "Use product rule: (e^x)'*x² + e^x*(2x) = e^x*x² + 2x*e^x"
   },
   {
     "id": "calc_hard_003",
-    "question": "Derivative of f(x) = ln(x² + 1)",
-    "options": ["2x/(x² + 1)", "1/(x² + 1)", "ln(2x+1)", "2/(x² + 1)"],
-    "correct_answer": "2x/(x² + 1)",
+    "question": "Find f'(x) if f(x) = ln(x² + 1)",
+    "options": ["2x / (x² +1)", "1/(x²+1)", "ln(2x)", "2 / (x² +1)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Chain rule: d/dx[ln(u)] = u'/u → u=x²+1, u'=2x → 2x/(x² +1)."
+    "explanation": "d/dx ln(u) = u'/u → u = x²+1, u' = 2x → 2x/(x²+1)"
   },
   {
     "id": "calc_hard_004",
-    "question": "Compute ∫ (3x² + 2x + 1) dx",
-    "options": ["x³ + x² + x + C", "x³ + x² + 2x + C", "3x³ + x² + x + C", "x³ + 2x² + x + C"],
-    "correct_answer": "x³ + x² + x + C",
+    "question": "f(x) = sin(x) / x, find f'(x)",
+    "options": ["(x*cos(x)-sin(x))/x²", "(x*cos(x)+sin(x))/x²", "cos(x)/x", "sin(x)/x²"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Integrate term by term: ∫3x² dx = x³, ∫2x dx = x², ∫1 dx = x."
+    "explanation": "Use quotient rule: (v u' - u v')/v² → (x*cos(x)-sin(x))/x²"
   },
   {
     "id": "calc_hard_005",
-    "question": "Derivative of f(x) = sin(x) * cos(x)",
-    "options": ["cos²(x) - sin²(x)", "sin²(x) - cos²(x)", "cos²(x) + sin²(x)", "-sin²(x)", "sin(2x)"],
-    "correct_answer": "cos²(x) - sin²(x)",
+    "question": "Derivative: f(x) = e^(2x)",
+    "options": ["2*e^(2x)", "e^(2x)", "e^(x²)", "4*e^(2x)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Product rule: u=sin(x), v=cos(x), u'=cos(x), v'=-sin(x) → u'v + uv' = cos²(x)-sin²(x)."
+    "explanation": "d/dx e^(u) = u'*e^u → u = 2x, u' = 2 → 2*e^(2x)"
   },
   {
     "id": "calc_hard_006",
-    "question": "Compute ∫ x e^x dx",
-    "options": ["x e^x - e^x + C", "x e^x + C", "e^x + C", "x² e^x + C"],
-    "correct_answer": "x e^x - e^x + C",
+    "question": "f(x) = tan(x), find f'(x)",
+    "options": ["sec²(x)", "tan²(x)", "1/cos²(x)", "sin²(x)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Integration by parts: ∫u dv = uv - ∫v du, u=x, dv=e^x dx → x e^x - ∫ e^x dx = x e^x - e^x + C."
+    "explanation": "Derivative of tan(x) = sec²(x)"
   },
   {
     "id": "calc_hard_007",
-    "question": "Derivative of f(x) = tan(x)",
-    "options": ["sec²(x)", "csc²(x)", "tan²(x)", "1/cos²(x)"],
-    "correct_answer": "sec²(x)",
+    "question": "f(x) = 1 / (x+1), find f'(x)",
+    "options": ["-1/(x+1)²", "1/(x+1)²", "-1/(x+1)", "1/(x+1)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "d/dx[tan(x)] = sec²(x)."
+    "explanation": "Derivative of 1/u = -u'/u² → -1/(x+1)²"
   },
   {
     "id": "calc_hard_008",
-    "question": "Compute ∫ sec²(x) dx",
-    "options": ["tan(x) + C", "-cot(x) + C", "sec(x) + C", "-tan(x) + C"],
-    "correct_answer": "tan(x) + C",
+    "question": "f(x) = x^x, find f'(x)",
+    "options": ["x^x(ln(x)+1)", "x^(x-1)", "x^(x+1)", "ln(x)*x^x"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "∫sec²(x) dx = tan(x) + C."
+    "explanation": "d/dx x^x = x^x*(ln(x)+1)"
   },
   {
     "id": "calc_hard_009",
-    "question": "Derivative of f(x) = e^(3x)",
-    "options": ["3 e^(3x)", "e^(3x)", "3x e^(3x)", "e^(x)"],
-    "correct_answer": "3 e^(3x)",
+    "question": "f(x) = ln(sin(x)), find f'(x)",
+    "options": ["cot(x)", "tan(x)", "1/sin(x)", "cos(x)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "Chain rule: d/dx[e^(3x)] = e^(3x)*3 = 3 e^(3x)."
+    "explanation": "d/dx ln(u) = u'/u → u = sin(x), u' = cos(x) → cos(x)/sin(x) = cot(x)"
   },
   {
     "id": "calc_hard_010",
-    "question": "Compute ∫ e^(2x) dx",
-    "options": ["(1/2) e^(2x) + C", "2 e^(2x) + C", "e^(2x) + C", "e^(x) + C"],
-    "correct_answer": "(1/2) e^(2x) + C",
+    "question": "f(x) = sqrt(x² + 1), find f'(x)",
+    "options": ["x / sqrt(x² +1)", "1 / (2*sqrt(x²+1))", "sqrt(x²+1)/x", "x² / sqrt(x²+1)"],
+    "correct_answer": "a",
     "difficulty": "hard",
-    "explanation": "∫ e^(ax) dx = (1/a) e^(ax) + C → 1/2 e^(2x) + C."
+    "explanation": "d/dx sqrt(u) = u'/2sqrt(u) → u=x²+1 → 2x/2sqrt(x²+1) = x/sqrt(x²+1)"
   },
   {
     "id": "calc_expert_001",
-    "question": "Find d²/dx² of f(x) = x³ + 2x² - x",
-    "options": ["6x + 4", "3x² + 4x -1", "6x² + 4x", "6x² + 4"],
-    "correct_answer": "6x + 4",
+    "question": "f(x) = x² * e^x, find f''(x)",
+    "options": ["2e^x + 4x e^x + x² e^x", "e^x + x² e^x", "2e^x + x e^x", "4x e^x + x² e^x"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "First derivative: 3x² + 4x -1, second derivative: 6x + 4."
+    "explanation": "f' = 2x e^x + x² e^x → f'' = 2 e^x + 2x e^x + 2x e^x + x² e^x = 2e^x + 4x e^x + x² e^x"
   },
   {
     "id": "calc_expert_002",
-    "question": "Compute ∫ (x² * e^x) dx",
-    "options": ["x² e^x - 2x e^x + 2 e^x + C", "x² e^x + C", "2x e^x - 2 e^x + C", "x² e^x - e^x + C"],
-    "correct_answer": "x² e^x - 2x e^x + 2 e^x + C",
+    "question": "f(x) = ln(x² +1), find f''(x)",
+    "options": ["2(1-x²)/(x²+1)²", "2/(x²+1)", "2x/(x²+1)²", "-2/(x²+1)²", "x²/(x²+1)²"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Integration by parts twice: ∫x² e^x dx = x² e^x - 2 ∫x e^x dx = x² e^x - 2(x e^x - ∫ e^x dx) = x² e^x - 2x e^x + 2 e^x + C."
+    "explanation": "f' = 2x/(x²+1), f'' = (2(x²+1) - 4x²)/(x²+1)² = 2(1-x²)/(x²+1)²"
   },
   {
     "id": "calc_expert_003",
-    "question": "Find dy/dx if x² + y² = 25",
-    "options": ["-x/y", "x/y", "y/x", "-y/x"],
-    "correct_answer": "-x/y",
+    "question": "f(x) = sin(x²), find f'(x)",
+    "options": ["2x cos(x²)", "cos(x²)", "2 cos(x)", "x cos(x²)"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Implicit differentiation: 2x + 2y dy/dx = 0 → dy/dx = -x/y."
+    "explanation": "Chain rule: d/dx sin(u) = cos(u) u', u=x² → 2x cos(x²)"
   },
   {
     "id": "calc_expert_004",
-    "question": "Compute ∫ (sin(x) * e^x) dx",
-    "options": ["(e^x)(sin(x)-cos(x))/2 + C", "(e^x)(sin(x)+cos(x))/2 + C", "e^x sin(x) + C", "-e^x cos(x) + C"],
-    "correct_answer": "(e^x)(sin(x)-cos(x))/2 + C",
+    "question": "f(x) = e^(x²), find f''(x)",
+    "options": ["4x² e^(x²) + 2 e^(x²)", "2 e^(x²)", "4x e^(x²)", "x² e^(x²)"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Integration by parts or formula: ∫ e^x sin(x) dx = e^x (sin(x)-cos(x))/2 + C."
+    "explanation": "f' = 2x e^(x²), f'' = 2 e^(x²) + 4x² e^(x²) = 4x² e^(x²) + 2 e^(x²)"
   },
   {
     "id": "calc_expert_005",
-    "question": "Derivative of f(x) = ln(sin(x))",
-    "options": ["cot(x)", "tan(x)", "1/sin(x)", "-cos(x)/sin(x)", "-cot(x)"],
-    "correct_answer": "cot(x)",
+    "question": "f(x) = tan(x²), find f'(x)",
+    "options": ["2x sec²(x²)", "sec²(x²)", "2 sec²(x)", "tan²(x²)"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "d/dx ln(u) = u'/u, u=sin(x) → cos(x)/sin(x) = cot(x)."
+    "explanation": "Chain rule: derivative of tan(u)=sec²(u) u', u=x² → 2x sec²(x²)"
   },
   {
     "id": "calc_expert_006",
-    "question": "Compute ∫ (x / (x² +1)) dx",
-    "options": ["(1/2) ln(x² +1) + C", "ln(x² +1) + C", "x ln(x² +1) + C", "1/(x²+1) + C"],
-    "correct_answer": "(1/2) ln(x² +1) + C",
+    "question": "f(x) = x / (x+1), find f''(x)",
+    "options": ["-2 / (x+1)³", "2 / (x+1)³", "-1/(x+1)²", "1/(x+1)²"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Substitute u=x²+1 → du=2x dx → ∫x/(x²+1) dx = 1/2 ∫ du/u = 1/2 ln(u) + C."
+    "explanation": "f' = 1/(x+1)², f'' = -2/(x+1)³"
   },
   {
     "id": "calc_expert_007",
-    "question": "Find d/dx of f(x) = x^x",
-    "options": ["x^x(1+ln(x))", "x^(x-1)", "x^(x+1)", "x^x ln(x)"],
-    "correct_answer": "x^x(1+ln(x))",
+    "question": "f(x) = ln(x)/x, find f'(x)",
+    "options": ["(1 - ln(x))/x²", "ln(x)/x²", "1/x²", "-(1 - ln(x))/x²"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Use logarithmic differentiation: y=x^x → ln y = x ln x → d/dx ln y = ln x +1 → dy/dx = x^x (1+ln x)."
+    "explanation": "Use quotient rule: f'=(x*(1/x) - ln(x)*1)/x² = (1 - ln(x))/x²"
   },
   {
     "id": "calc_expert_008",
-    "question": "Compute ∫ (e^x / (1 + e^(2x))) dx",
-    "options": ["(1/2) arctan(e^x) + C", "ln(1 + e^(2x)) + C", "arctan(e^x) + C", "1/(1+e^(2x)) + C"],
-    "correct_answer": "(1/2) arctan(e^x) + C",
+    "question": "f(x) = x e^x, find f''(x)",
+    "options": ["2e^x + x e^x", "e^x + x e^x", "x e^x", "2 x e^x"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "Substitute u=e^x → du = e^x dx → ∫du/(1+u²) = arctan(u) → (1/2) arctan(e^x) + C."
+    "explanation": "f' = e^x + x e^x → f'' = e^x + (e^x + x e^x) = 2 e^x + x e^x"
   },
   {
     "id": "calc_expert_009",
-    "question": "Derivative of f(x) = arcsin(x)",
-    "options": ["1/√(1-x²)", "-1/√(1-x²)", "1/(1+x²)", "-1/(1+x²)"],
-    "correct_answer": "1/√(1-x²)",
+    "question": "f(x) = x³ * ln(x), find f'(x)",
+    "options": ["3x² ln(x) + x²", "3x² ln(x) + x³", "x³ ln(x)", "3x² ln(x) - x²"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "d/dx[arcsin(x)] = 1/√(1-x²)."
+    "explanation": "Use product rule: u = x³, v = ln(x) → u'v + uv' = 3x² ln(x) + x²"
   },
   {
     "id": "calc_expert_010",
-    "question": "Compute ∫ (1/√(1-x²)) dx",
-    "options": ["arcsin(x) + C", "arccos(x) + C", "ln|x + √(x²+1)| + C", "-arccos(x) + C"],
-    "correct_answer": "arcsin(x) + C",
+    "question": "f(x) = e^(x) / x, find f'(x)",
+    "options": ["(x e^x - e^x) / x²", "(x e^x + e^x) / x²", "e^x / x²", "(x - 1)e^x / x²"],
+    "correct_answer": "a",
     "difficulty": "expert",
-    "explanation": "∫ dx/√(1-x²) = arcsin(x) + C."
+    "explanation": "Quotient rule: (v u' - u v') / v² → ((x * e^x) - e^x) / x² = (x e^x - e^x)/x²"
   }
 ]
