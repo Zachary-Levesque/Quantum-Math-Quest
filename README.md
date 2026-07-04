@@ -29,7 +29,7 @@ Quantum-Bros/
 │   ├── get_questions.py     Question loading
 │   ├── quantum_kfactor.py   Quantum-inspired Elo K-factor logic
 │   └── quantum_random.py    Qiskit-based random number generation
-├── requirements.txt
+├── Requirements.txt
 └── README.md
 ```
 
@@ -38,10 +38,8 @@ Quantum-Bros/
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-pip install -r requirements.txt
+pip install -r Requirements.txt
 ```
-
-The original hackathon dependency file, `Requirements.txt`, is kept for compatibility. New setup instructions use the standard lowercase `requirements.txt`.
 
 ## Run The Game
 
