@@ -1,83 +1,65 @@
 # Quantum Math Quest
-## Created by the Quantum Bros: Zachary Levesque, Aleksa Zarin and Samir Jr. Abou Serhal
-Hello World! Welcome to our repository for the 2025 Qiskit Hackathon featuring our project: Quantum Math Quest — a gamified, adaptive math challenge powered by quantum-inspired algorithms.
 
+Quantum Math Quest is a Python desktop quiz game that combines adaptive math practice with quantum-random question selection. It was built for the 2025 Qiskit Hackathon by Zachary Levesque, Aleksa Zarin, and Samir Jr. Abou Serhal.
 
-## Introduction:
-Quantum Math Quest is an interactive game that merges mathematical problem-solving with adaptive learning inspired by quantum computation principles.
+Players answer algebra, probability, geometry, and calculus questions while an Elo-style rating system adjusts difficulty. Quantum circuits generated with Qiskit provide randomized category and question selection, making the game a practical demonstration of how quantum measurement can be used inside an educational application.
 
-The idea: a Math Quest that evolves with you. As players solve problems, the game adjusts the difficulty dynamically using an ELO-style rating system, ensuring a continuous, personalized challenge.
+## Features
 
-Our project explores how quantum computing concepts—such as probabilistic reasoning and state-based progression—can enhance educational systems and game design.
+- Adaptive difficulty based on player Elo
+- Quantum-random category and question selection with Qiskit Aer
+- Four math categories: algebra, probability, geometry, and calculus
+- Instant feedback with explanations
+- Elo progression tracking and visualization
+- Tkinter desktop interface
 
-We’re building this as part of the QFF25 Hackathon, hosted by the University of Ottawa Quantum Club.
+## Why It Matters
 
-## Problem Definition & Motivation:
-### Problem Statement
-As the population becomes more and more dependent on technology, many people struggle to practice math consistently. Our project is an interactive math game to help users improve their mathematical skills through fun exercices with instant feedback.
+The project connects quantum computing concepts to a user-facing learning tool. Instead of presenting quantum randomness as an isolated circuit demo, the game uses measurement outcomes as part of the product loop: selecting practice material, varying difficulty, and keeping repeated sessions unpredictable.
 
-### Relevance to Quantum Computing
-Our project is relevant to the scope of this competition as it leverages the truly probabilistic nature of wave functions to properly randomize the upcoming challenges the user faces. 
+## Project Structure
 
-## Features:
-- Adaptive Difficulty: Questions adjust based on your ELO rating
-  
-- Quantum Random Selection: Uses Qiskit to select categories via quantum circuits
-  
-- 4 Math Categories: Algebra, Probability, Geometry, and Calculus
-  
-- ELO Rating System: Track your progress with a competitive rating system
+```text
+Quantum-Bros/
+├── data/questions/          Math question banks
+├── demo/                    Hackathon visuals and generated outputs
+├── src/
+│   ├── main.py              Tkinter game interface
+│   ├── elo.py               Rating and difficulty updates
+│   ├── get_questions.py     Question loading
+│   ├── quantum_kfactor.py   Quantum-inspired Elo K-factor logic
+│   └── quantum_random.py    Qiskit-based random number generation
+├── requirements.txt
+└── README.md
+```
 
+## Setup
 
-## Approach
-Our approach combines classical adaptive algorithms with quantum-inspired mechanisms:
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
 
-1) ELO-based Adaptation:
+The original hackathon dependency file, `Requirements.txt`, is kept for compatibility. New setup instructions use the standard lowercase `requirements.txt`.
 
-Each player and question has a dynamic ELO rating.
+## Run The Game
 
-Correct answers increase difficulty, incorrect answers adjust it downward. In order to achieve this, we use a quantum circuit.
-
-The system continuously estimates the player's skill level to match them with optimal problems.
-
-2) Quantum-Inspired Randomization:
-
-Quantum randomness (simulated or derived from Qiskit backends) introduces variability in question selection, ensuring replayability.
-
-Some gameplay features depend on quantum measurement outcomes, adding unpredictability and fairness. This is a great approach that uses less computing power then traditional computing.
-
-3) Gamification Layer:
-
-Players progress through mathematical “realms” themed around quantum gates and concepts.
-
-Each realm introduces progressively complex math aligned with quantum foundations (linear algebra, probability, etc.).
-
-4) Technology Stack:
-
-Python (core logic and ELO engine)
-
-Qiskit (quantum randomness & optional circuit demos)
-
-
-## How to run
-
-### Setup
-Clone the GitHub Repositorie
-
-
-### Install
-pip install matplotlib quantum-random
-
-### Run the game
+```bash
 python src/main.py
+```
 
-## Team members
-### Zachary Levesque: 
-4th year Electrical Engineering and Physics student at the University of Ottawa. Zachary is an expert in machine learning. Zachary determined the majority of the quantum algorithms used in the code.
+The app opens a local Tkinter window. A desktop Python environment is required.
 
-### Aleksa Zarin: 
-4th year Electrical Engineering and Physics student at the University of Ottawa. Aleksa is an expert in Python libraries. Aleksa wrote the python structure and tree that was employed.
+## Technical Notes
 
-### Samir Jr Abou Serhal: 
-4th year Electrical Engineering and Physics student at the University of Ottawa. Samir is in charge of documentation and maintenance. Samir developped and solved the mathematical questions that are being asked. 
+- `quantum_random.py` builds small Qiskit circuits, measures them with `AerSimulator`, and maps the bitstrings to category or question indexes.
+- `elo.py` adjusts the player rating based on correctness and current difficulty.
+- `quantum_kfactor.py` experiments with a quantum-inspired dynamic K-factor so rating changes can vary by state.
+- Question data is stored as JSON so new categories or difficulty tiers can be added without changing the UI.
 
+## Team
+
+- Zachary Levesque: quantum algorithm design and machine-learning direction
+- Aleksa Zarin: Python application structure and library integration
+- Samir Jr. Abou Serhal: math question development, documentation, and maintenance
